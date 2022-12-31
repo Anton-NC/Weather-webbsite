@@ -36,7 +36,7 @@ function convertion(val){
         })
 
     //error mess om du typar in fel namn och om du trycker på knappen utan att skriva något.
-        .catch(err => alert('You entered Wrong city name'))
+        .catch(err => alert('Du har slagit in fel stadsnamn'))
     }
 )
 
@@ -57,22 +57,6 @@ if(navigator.geolocation) {
         var geoAcc = pos.coords.accuracy.toFixed(1);
 
     });
-}
-//Getcurrentposition error returneras
-function getPosErr(err) {
-    switch (err.code){
-        case err.PERMISSION_DENIED:
-            alert("User have denied the geolocation")
-            break;
-        case err.POSITION_UNAVAILABLE:
-            alert("Location information is unavailable")
-            break;
-        case err.TIMEOUT:
-            alert("Location timed out");
-            break;
-            default:
-                alert("Unknown error");
-    }
 }
 
 
