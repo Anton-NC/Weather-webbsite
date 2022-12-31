@@ -40,24 +40,6 @@ function convertion(val){
     }
 )
 
-//vill ha användarens lokations data för att visa lokala positionen
-
-//checka om api:ns geolocation finns
-if(navigator.geolocation) {
-    //om det stämmer
-    alert("Location");
-} else {
-    alert('geolocation NOT available');
-}
-//callback
-if(navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(pos){
-        var geoLat = pos.coords.latitude.toFixed(5);
-        var geoLng = pos.coords.longitude.toFixed(5);
-        var geoAcc = pos.coords.accuracy.toFixed(1);
-
-    });
-}
 
 
 
