@@ -1,0 +1,27 @@
+#nav-list {
+     text-decoration: none;
+    flex-wrap: wrap;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+}
+.logo {
+    width: 15%;
+    height: 15%;    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.slick-logo-name {
+    position: relative;
+    right: -8em;
+    top: -3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    position: relative;
+    top: -3em;
+}

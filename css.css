@@ -7,20 +7,20 @@
 
 
 }
+nav {
+    position: relative;
+    top: -3em;
+}
 .logo {
     width: 15%;
     height: 15%;    
 }
-.search {
-    width: 10px;
-    height: 10%;
-    position: relative;
-    right: -1%;
-}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     background: #448aff;
@@ -49,6 +49,7 @@ body{
     border: 2px solid #c2c2c2;
     border-radius: 2px;
     margin-right:4px ;
+    
 }
 .inputs input[type="submit"] {
     height: 3.2rem;
@@ -96,6 +97,14 @@ body{
     color: #90006e;
     font-size: 25px;
   }
+  .wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+    background: #0548b5;
+    color: white;
+    font-family: sans-serif;
+  }
+
   .map {
     border: 3px solid black;
     padding: 10px;
@@ -104,4 +113,11 @@ body{
     margin-right: auto;
     width: 100%;
   }
+.slick-logo-name {
+    position: relative;
+    right: -8em;
+    top: -3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
